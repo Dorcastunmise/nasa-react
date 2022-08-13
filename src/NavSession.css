@@ -1,0 +1,30 @@
+.begin {
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(85, 85, 167);
+    background: linear-gradient(105deg, );
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+}
+.logo {
+    background-color: rgb(85, 85, 167);
+    max-width: 110px;
+    height: fit-content;
+    padding: 5px 15px;
+}
+.separate {
+    list-style: none;
+    margin-left: 1px thin grey;
+
+    display: flex;
+    background-color: rgb(85, 85, 167);
+}
+.separate > li {
+    margin-top: 18px;
+    padding-left: 20px;
+    font-size: medium;
+    color: white;
+    padding-right: 35px;
+    background-color: rgb(85, 85, 167);
+
+}

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: rgb(56, 44, 88);
+    border-radius: 9px;
+    background: linear-gradient(105deg, );
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.contact-card {
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 12px;
+    color: rgba(0, 0, 0, 0.9);;
+    background-color: rgb(103, 100, 138);
+}
+
+.contact-card > img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.contact-card > h3 {
+    font-weight: 700;
+    color: white;
+    background-color: rgb(56, 44, 88);
+    font-size: 18px;
+}
+

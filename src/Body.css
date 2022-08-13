@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+.card {
+    margin: auto;
+}
+.neil {
+    padding: 10px;
+    border: 1px thin gray;
+    border-radius: 9px;
+}
+.star {
+    width: 5px;
+    height: 5px;
+}
+.grey {
+    color: grey;
+}
+.checked {
+    color: orange;
+}
+.paragraph {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    font-weight: lighter;
+}
